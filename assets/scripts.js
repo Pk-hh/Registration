@@ -10,7 +10,7 @@ form.addEventListener('submit', e => {
     college: form.college.value
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbzg1C2y1GEK_cVGHjHA3THjv_ki1n03MQHAdFCe3Fa1WADbLFHnZqsoupYlzF9UADrjDA/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbyfuFiDRU2K2k3h3wUEmS9U4Dh5UKHCkm2TPzR9dv_-c-uJPtw3reviwm4rR_IgneHBeg/exec", {
     method: "POST",
     body: JSON.stringify(data),
   })
