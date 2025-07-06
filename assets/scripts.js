@@ -4,6 +4,7 @@ form.addEventListener('submit', e => {
   e.preventDefault();
 
   const data = {
+    roll: form.Name.value,
     roll: form.roll.value,
     email: form.email.value,
     phone: form.phone.value,
